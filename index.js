@@ -164,6 +164,6 @@ app.get("/", async (req, res) => {
     res.send("Hello World! I am home route of doctor portal");
 });
 
-app.listen(5000, () => {
+app.listen(port, () => {
     console.log("Server running successfully");
 });
